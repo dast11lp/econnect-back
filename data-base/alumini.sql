@@ -72,7 +72,7 @@ CREATE TABLE job_boards (
     active TINYINT NOT NULL DEFAULT 1
 );
 
-CREATE TABLE success_stories (
+CREATE TABLE stories (
     id INT AUTO_INCREMENT PRIMARY KEY,
     alumni_name VARCHAR(150) NOT NULL,
     program VARCHAR(150),
